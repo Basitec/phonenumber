@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+body{
+    text-align: center;
+    margin: 15% auto;
+}
+input{
+    outline: none;
+    width: 20em;
+    padding: 3em;
+}
+b{
+    display: block;
+    padding: 3em;
+    color: #3344ff;
+
+}
+button{
+    cursor: pointer;
+    padding: 1em 3em;
+    background-color: #3344ff;
+    color: #fff ;
+    border-radius: 5px;
+    border: 2px solid #3344ff;
+}
+button:hover{
+    border: 2px solid #3344ff;
+    background-color: #fff;
+    color: #3344ff;
+}
+h1{
+    /* background: linear-gradient(to right, #f32170, 
+    #ff6b08, #cf23cf, #eedd44);  */
+    background: linear-gradient(to right, #3344ff,#f00);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+}
